@@ -1,6 +1,5 @@
 markdown: rdiscount
-
 permalink: /:year/:month/:title/
 url: http://cn.liuhao.me
-author: ¡ı∫∆
+author: Liu Hao
 pygments: true

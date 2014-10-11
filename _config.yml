@@ -1,1 +1,6 @@
 markdown: rdiscount
+
+permalink: /:year/:month/:title/
+url: http://cn.liuhao.me
+author: ¡ı∫∆
+pygments: true

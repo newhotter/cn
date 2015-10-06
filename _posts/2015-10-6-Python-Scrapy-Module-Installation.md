@@ -1,6 +1,6 @@
 ---
-layout:post
-title:Python爬虫架构Scrapy的安装
+layout: post
+title: Python爬虫架构Scrapy的安装
 categories:
 - Python
 - Scrapy
@@ -35,4 +35,3 @@ tags:
 	这个错误，是在最新的OSX EI Captain上才有的错误，原因在于新系统的System Integrity Protection特性。我们需要关闭这个特效。
 
 	解决办法：我们进入Recovery mac模式下，打开工具（utilities）里面的终端（terminal），利用命令csrutil disable来关闭之。最后再在Terminal中输入sudo -s pip install等相关命令进行安装。
-

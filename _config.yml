@@ -1,4 +1,4 @@
-markdown: redcarpet
+markdown: maruku
 permalink: /:year/:month/:title/
 url: http://cn.liuhao.me
 author: Liu Hao

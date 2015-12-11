@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Kadane's Algorithm
+title: 研一这一年我要怎么过？
 categories:
-- 计划
+- Plan
 - 研一
 tags:
 - 研一
-- 计划
+- Plan
 - 三高
 ---
 

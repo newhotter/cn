@@ -3,7 +3,7 @@ layout: post
 title: MATLAB函数及模块编写的经验总结
 categories:
 - MATLAB
-- programming
+- Programming
 tags:
 - MATLAB
 - 函数

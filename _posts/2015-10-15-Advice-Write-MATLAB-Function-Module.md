@@ -24,11 +24,11 @@ tags:
 8. 有时候可以在一个m文件中编写多个函数。前提是主函数意外的子函数不需要单独使用，只在主函数中用到。这样做的好处是既不让使用者直接接触到这些不需要用到的子函数，又增强了封装性。
 9. Return在子函数里的用处很大。
 10. tic和toc都是有返回值的，tic返回值为代码执行时系统时间，toc的返回值为elapsed time。
-11. seed0 = randn('state’),这样的代码就可以当seed中。还可以randn('state’,100)。
-12. feval这个神奇的函数一定要用好。
-13. 画图要规范，不要图省事。下面的一段是MFE里面的画图代码。
+11. seed0 = randn('state’),这样的代码就可以当seed中。还可以 randn('state’,100)。
+12. 画图要规范，不要图省事。下面的一段是MFE里面的画图代码。
+13. feval这个神奇的函数一定要用好。
 
-``` PYTHON
+``` python
 fig = figure('Position',[100 100 800 600]);
 s1=subplot(2,1,1);
 h1=plot(dates,[y yhat]);
@@ -64,3 +64,4 @@ set(h2,'LineWidth',2)
 set(s2,'LineWidth',2,'FontSize',12,'FontWeight','Bold')
 set(t2,'FontSize',12,'FontWeight','Bold')
 ```
+

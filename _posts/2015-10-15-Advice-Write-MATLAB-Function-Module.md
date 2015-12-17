@@ -15,7 +15,7 @@ tags:
 最近自己写了一些MATLAB的函数集，同时也看了看Kevin sheppard的MFE包里的所有函数。总结了一些编写函数及模块所能用到的实用的经验。
 
 1. 善于用nargin来判断参数个数，用varnargin来使用可变参数个数。
-2. 善于用各种utility函数。例如：whos，strcmp，strcmpi，lower，error，warning，disp，fprintf，rem，mod等函数以及is类函数。
+2. 善于用各种小的效用函数。例如：whos，strcmp，strcmpi，lower，error，warning，disp，fprintf，rem，mod等函数以及is类函数。
 3. 善于用struct结构的数据，甚至可以用多重strcut。例如result.para，result.std。善用cell类数据结构。
 4. 一个函数的开头注释：最先是函数的介绍，第二是用法，第三是输入，第四是输出，第五是自己的comment，第六是examples，最后是copyright。
 5. 函数的最后一个input善用options。
